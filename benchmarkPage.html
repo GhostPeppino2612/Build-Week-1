@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benchmark Page</title>
+    <link rel="stylesheet" href="assets/css/generalStyle.css" />
+    <link rel="stylesheet" href="assets/css/bechmarkPage.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="assets/img/epicode_logo.png" alt="logo img" />
+      </div>
+      <div class="timer-container">
+        <svg class="timer-svg" width="120" height="120" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="45" class="timer-bg" />
+          <circle cx="50" cy="50" r="45" class="timer-progress" />
+        </svg>
+        <div class="time-text">Seconds <span id="time-remaining">30</span> Remaining</div>
+      </div>
+    </header>
+    <main>
+      <div class="question-container">
+        <p class="question-title">How can I create a checkbox in html?</p>
+        <div class="answers-section">
+          <div class="answer">input type = check</div>
+          <div class="answer">input type = checkbox</div>
+          <div class="answer">checkbox</div>
+          <div class="answer">input type = button</div>
+        </div>
+        <div class="question-number">
+          QUESTION <span class="dinamic-num">1</span>
+          <span class="static-num"> / 10</span>
+        </div>
+      </div>
+    </main>
+    <script src="benchmarkPage.js"></script>
+  </body>
+</html>

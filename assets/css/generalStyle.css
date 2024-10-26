@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "outfit";
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    height: 1000px;
+}
+
+header .logo-container img {
+    width: 160px;
+}

@@ -1,0 +1,52 @@
+header, main {
+    margin-inline: auto;
+    max-width: 1000px;
+}
+
+.logo-container {
+    margin-block: 5em;
+}
+
+main {
+    text-align: center;
+}
+
+main h1 {
+    font-size: 50px;
+}
+
+main h1 + p {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.stars-container svg {
+    margin-inline: 0.5em;
+    cursor: pointer;
+}
+
+.feedback {
+    margin-block: 2em;
+    line-height: 2;
+    font-size: 2em;
+}
+
+input {
+    padding: 1em 2em;
+    width: 800px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #cc1292;
+    color: white;
+}
+
+.info {
+    margin-block: 3em;
+    margin-inline: auto;
+    padding-inline: 1em;
+    color: black;
+    font-weight: 600;
+    width: 250px;
+    background-color: aqua;
+    font-size: 0.8em;
+}

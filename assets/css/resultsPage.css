@@ -1,0 +1,100 @@
+header, main {
+    margin-inline: auto;
+    max-width: 1600px;
+}
+
+.logo-container {
+    margin-block: 3em;
+}
+
+main h1 {
+    font-size: 3em;
+}
+
+h1, h2 {
+    text-align: center;
+    line-height: 0.5;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.spinner-section {
+    margin-block: 5em;
+    margin-inline: auto;
+    font-size: 2.2em;
+    width: 1000px;
+    transform: translateX(56px);
+}
+
+.correct, .spinner-container, .wrong {
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: middle;
+    margin-inline-end: -2%;
+}
+
+.correct div:first-of-type, .wrong div:first-of-type  {
+    font-size: 1.4em;
+}
+
+.correct div + div + div, .wrong div + div + div {
+    font-size: 0.5em;
+}
+
+.spinner-container {
+    font-size: 10px;
+    margin-inline-end: 2.1%;
+}
+
+.congrats + p + p {
+    font-size: 25px;
+}
+
+.circle {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: conic-gradient(#00f7ff 66.7%, #ff2f92 0%);
+    border-radius: 50%;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-container p {
+    margin: 5px 0;
+}
+
+.congrats {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.circle::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 170px;
+    height: 170px;
+    background-color: #1C1C44;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rate {
+    margin-inline: auto;
+    border: 2px solid white;
+    text-align: center;
+    padding: 1em 3em;
+    width: 200px;
+    cursor: pointer;
+}
